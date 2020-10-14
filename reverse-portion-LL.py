@@ -61,8 +61,7 @@ def reverse(head, m, n):
 
 def main():
     print("Reversing portion of a linked list")
-    head = Node(
-        11, Node(23, Node(35, Node(44, Node(52, Node(60, Node(77, None)))))))
+    head = Node(11, Node(23, Node(35, Node(44, Node(52, Node(60, Node(77, None)))))))
     print("Original list:\n")
     print_list(head)
     print("\nEnter m and n:(space separated)\nm-start     n-end\n(Type # to exit)")
