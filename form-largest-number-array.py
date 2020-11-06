@@ -14,17 +14,18 @@ def formLargestNumber(arr):
     return s
 
 
-# def main():
-print("Type # to exit")
-while True:
-    s = input("\n➡  ")
-    if s == '#':
-        break
-    arr = list(map(int, s.split(',')))
-    print("The largest number that can be formed is {}.".format(
-        formLargestNumber(arr)
-    ))
+def main():
+    print("Type # to exit")
+    while True:
+        s = input("\n➡  ")
+        if s == '#':
+            break
+        arr = list(map(int, s.split(',')))
+        print("The largest number that can be formed is {}.".format(
+            formLargestNumber(arr)
+        ))
 
 
-# if __name__ == "__main__":
-#     main()
+if __name__ == "__main__":
+    main()
+
