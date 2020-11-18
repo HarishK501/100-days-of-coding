@@ -2,7 +2,7 @@ from collections import deque
 from binarytree import Node
 
 
-def diameter(root, result=True):
+def diameter(root, result=0):
     if root is None:
         return 0, result
 
