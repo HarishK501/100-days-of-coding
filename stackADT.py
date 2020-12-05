@@ -29,4 +29,7 @@ class Stack:
             return None
 
     def printStack(self):
-        print(self.stack)
+        print(self.stack[::-1])
+
+    def isEmpty(self):
+        return len(self.stack) == 0
