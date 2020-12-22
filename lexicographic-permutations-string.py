@@ -1,4 +1,8 @@
+# using library functions
 from itertools import permutations
+def findPermutations_Lib(S):
+    result = sorted("".join(c) for c in permutations(S))
+    return result
 
 
 # function to calculate the factorial of a number
@@ -7,12 +11,6 @@ def fact(n):
         return 1
 
     return n * fact(n-1)
-
-
-# using library functions
-def findPermutations_Lib(S):
-    result = sorted("".join(c) for c in permutations(S))
-    return result
 
 
 # function which returns a string which is its next permutation in the lexicographic order
