@@ -1,4 +1,4 @@
-# Convert a string-"aaaabbbccddd" to "a4b3c2d3"
+# Convert a string-"aaaabbbccddd" to "a4b3c2d3" (run length encoding)
 def main():
     print("Type \"#\" for exit.")
     while(1):
